@@ -1,0 +1,22 @@
+body{
+    background-color: deepskyblue;
+}
+
+.mapdiv{
+	position:fixed;
+	top: 10%;
+	left: 25%;
+    width: 48%;
+    
+}
+
+.mapdiv path {
+    fill: green;
+    stroke: #dece0c;
+    stroke-width:2px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:yellow;
+}
